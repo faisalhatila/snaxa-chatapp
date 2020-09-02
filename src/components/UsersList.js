@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const UsersListComponent = (props) => {
-  const [usersList, setUsersList] = useState([
+  const usersList = [
     {
       id: 0,
       name: "Faisal",
@@ -167,7 +167,7 @@ const UsersListComponent = (props) => {
       isFavourite: true,
       avatar: "assets/img/avatars/5.png",
     },
-  ]);
+  ];
   return (
     <div>
       <div className="col-12">
