@@ -9,7 +9,7 @@ const ChatScreenTopComponent = (props) => {
           <h4 className="noMargin">Faisal</h4>
         </div>
         <div className="d-flex align-items-center">
-          <label className="noMargin smallFont11 heavyFont">Away |</label>
+          <label className="noMargin smallFont11 heavyFont">Online |</label>
           <label className="noMargin smallFont11 heavyFont">
             &nbsp;Local time 2:20 PM
           </label>

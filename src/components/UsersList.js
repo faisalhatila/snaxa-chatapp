@@ -188,13 +188,13 @@ const UsersListComponent = (props) => {
               >
                 <div className="mr-2">
                   <img alt={item.name} src={item.avatar} className="avatar" />
-                  {/* <div
+                  <div
                     className={`avatarActiveStatus ${
                       item.isOnline
                         ? "avatarActiveStatusColor"
                         : "avatarInactiveStatus"
                     }`}
-                  ></div> */}
+                  ></div>
                 </div>
                 <div className="flex-grow-1">
                   <div className="d-flex align-items-start justify-content-between">
@@ -204,7 +204,7 @@ const UsersListComponent = (props) => {
                         {item.lastMessage}
                       </label>
                     </div>
-                    {/* <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center">
                       <label className="smallFont noMargin">
                         {item.lastSeen}
                       </label>
@@ -213,7 +213,7 @@ const UsersListComponent = (props) => {
                       ) : (
                         <i class="far fa-star smallFont ml-1"></i>
                       )}
-                    </div> */}
+                    </div>
                   </div>
                   <div className="d-flex align-items-center"></div>
                 </div>
