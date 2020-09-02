@@ -74,6 +74,7 @@
 }
 .chatScreenBody {
   max-height: 65vh;
+  min-height: 65vh;
   overflow: auto;
 }
 .chatMainScreenFooterMainDiv {
