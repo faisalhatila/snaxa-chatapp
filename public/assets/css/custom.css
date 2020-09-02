@@ -117,3 +117,11 @@
   text-align: center;
   min-height: 85vh;
 }
+.listTitleDiv {
+  background-color: #b40008;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  min-width: 223px;
+}
