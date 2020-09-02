@@ -209,7 +209,7 @@ const UsersListComponent = (props) => {
                         {item.lastSeen}
                       </label>
                       {item.isFavourite ? (
-                        <i class="fas fa-star smallFont ml-1"></i>
+                        <i class="fas fa-star smallFont ml-1 favColor"></i>
                       ) : (
                         <i class="far fa-star smallFont ml-1"></i>
                       )}

@@ -48,6 +48,7 @@
 .chatComponentMainDiv {
   border: solid 1px #ccc;
   border-radius: 5px;
+  max-height: 100vh;
 }
 .chatScreenTopActiveBulb {
   height: 10px;
@@ -60,4 +61,11 @@
 }
 .smallFont11 {
   font-size: 11px;
+}
+.favColor {
+  color: goldenrod;
+}
+
+.chatScreenBody {
+  height: 80vh;
 }
