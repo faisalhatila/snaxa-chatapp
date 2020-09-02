@@ -5,9 +5,9 @@ import ChatMainScreenFooter from "./ChatMainScreenFooter";
 
 const ChatScreenComponent = (props) => {
   return (
-    <div>
-      <ChatScreenTopComponent />
-      <ChatMainScreenBody />
+    <div className="mt-3 mt-md-0">
+      <ChatScreenTopComponent currentUser={props.currentUser} />
+      <ChatMainScreenBody currentUser={props.currentUser} />
       <ChatMainScreenFooter />
     </div>
   );

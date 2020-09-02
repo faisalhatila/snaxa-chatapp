@@ -171,6 +171,7 @@ const UsersListComponent = (props) => {
   return (
     <div>
       <div className="col-12">
+        <h3>Users list</h3>
         <div class="align-items-center d-flex form-group userSearchDiv">
           <input
             type="email"
@@ -185,6 +186,7 @@ const UsersListComponent = (props) => {
               <div
                 key={i}
                 className="d-flex align-items-center mt-3 userListItemDiv"
+                onClick={() => props.handleCurrentUser(item)}
               >
                 <div className="mr-2">
                   <img alt={item.name} src={item.avatar} className="avatar" />
@@ -199,7 +201,7 @@ const UsersListComponent = (props) => {
                 <div className="flex-grow-1">
                   <div className="d-flex align-items-start justify-content-between">
                     <div className="d-flex flex-column">
-                      <label className="noMargin">{item.name}</label>
+                      <label className="noMargin shortText">{item.name}</label>
                       <label className="noMargin smallFont">
                         {item.lastMessage}
                       </label>

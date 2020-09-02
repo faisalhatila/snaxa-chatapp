@@ -54,10 +54,10 @@
   border-radius: 5px;
   max-height: 85vh;
 }
-.chatScreenTopActiveBulb {
+.chatScreenTopBulb {
   height: 10px;
   width: 10px;
-  background-color: green;
+  /* background-color: green; */
   border-radius: 50%;
 }
 .heavyFont {
@@ -69,9 +69,12 @@
 .favColor {
   color: #b40008;
 }
-
+.chatScreenBodyMain {
+  height: 100%;
+}
 .chatScreenBody {
-  height: 65vh;
+  max-height: 65vh;
+  overflow: auto;
 }
 .chatMainScreenFooterMainDiv {
   position: relative;
@@ -98,4 +101,18 @@
   color: #fff;
   border-radius: 2px;
   padding: 2px;
+}
+.chatMessage {
+  font-size: 13px;
+}
+.shortText {
+  white-space: nowrap;
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* border: 1px solid #000000; */
+}
+.noActiveUserChatBody {
+  text-align: center;
+  min-height: 85vh;
 }
