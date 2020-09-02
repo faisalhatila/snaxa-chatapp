@@ -1,0 +1,47 @@
+.mainHomeContainer {
+  background-color: #ebeaeb;
+}
+.wholeContentContainer {
+  background-color: #fff;
+}
+.userSearchInput {
+  border: none;
+}
+.userSearchInput:focus {
+  box-shadow: none;
+}
+.userSearchDiv {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 0 10px 0 0;
+}
+.avatar {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+.avatarActiveStatus {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+  transform: translateY(-10px);
+}
+.avatarActiveStatusColor {
+  background-color: green;
+}
+.avatarInactiveStatus {
+  background-color: #888;
+}
+.smallFont {
+  font-size: 10px;
+}
+.noMargin {
+  margin: 0;
+}
+.userListItemDiv {
+  border: solid 1px #ccc;
+  padding: 5px 5px 5px 0px;
+  border-radius: 5px;
+}
