@@ -1,7 +1,6 @@
 import React from "react";
 
 const ChatMessgeAdmin = (props) => {
-  const { currentUser } = props;
   return (
     <div className="d-flex align-items-center mb-3">
       <p className="noMargin chatMessage text-right">
