@@ -6,7 +6,7 @@ const HomeContainer = (props) => {
     <div className="mainHomeContainer p-5">
       <div className="container wholeContentContainer pt-4">
         <div className="col-12 d-flex">
-          <div className="col-3">
+          <div className="col-3 userListComponentMainDiv">
             <UsersListComponent />
           </div>
           <div className="col-9 chatComponentMainDiv">

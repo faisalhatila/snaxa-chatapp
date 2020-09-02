@@ -1,6 +1,10 @@
 .mainHomeContainer {
   background-color: #ebeaeb;
 }
+.userListComponentMainDiv {
+  max-height: 85vh;
+  overflow: auto;
+}
 .wholeContentContainer {
   background-color: #fff;
 }
@@ -48,7 +52,7 @@
 .chatComponentMainDiv {
   border: solid 1px #ccc;
   border-radius: 5px;
-  max-height: 100vh;
+  max-height: 85vh;
 }
 .chatScreenTopActiveBulb {
   height: 10px;
@@ -63,9 +67,35 @@
   font-size: 11px;
 }
 .favColor {
-  color: goldenrod;
+  color: #b40008;
 }
 
 .chatScreenBody {
-  height: 80vh;
+  height: 65vh;
+}
+.chatMainScreenFooterMainDiv {
+  position: relative;
+}
+.chatMainScreenInputDiv {
+  position: absolute;
+  min-width: 100%;
+  bottom: -80px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+.chatMainScreenInputDiv > input {
+  border: none;
+  flex: 12;
+}
+.chatMainScreenInputDiv > input:focus {
+  box-shadow: none !important;
+  border: none;
+}
+.sendButton {
+  flex: 1;
+  background-color: #b40008;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px;
 }
